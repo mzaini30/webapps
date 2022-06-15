@@ -10,7 +10,7 @@
     "release": "bumpp --tag --commit --push"
   },
   "simple-git-hooks": {
-    "pre-push": "npm run prettier"
+    "pre-commit": "npm run prettier"
   },
   "dependencies": {
     "vue": "^3.2.25"
