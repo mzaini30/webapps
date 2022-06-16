@@ -1,10 +1,10 @@
-<script setup="">
-  import {Head} from '@vueuse/head'
+<script setup="" lang="ts">
+import { Head } from "@vueuse/head";
 </script>
 
 <template>
   <Head>
-    <title>Excalibur</title>  
+    <title>Excalibur</title>
   </Head>
 
   <div class="text-center p-10 min-h-screen w-full grid items-center">
