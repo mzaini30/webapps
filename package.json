@@ -29,11 +29,10 @@
     "vite": "^2.9.7",
     "vite-plugin-pages": "^0.24.1",
     "vite-plugin-vue-inspector": "github:mzaini30/vite-plugin-vue-inspector",
-    "vite-plugin-yaml2": "^0.2.4",
+    "vite-plugin-yaml2": "^1.0.0",
     "vite-ssg": "^0.20.1",
     "vue-lazyload": "3.0.0-rc.2",
     "vue-router": "^4.0.16",
-    "vue-router-prefetch": "^1.6.3",
     "vue-tsc": "^0.34.7"
   }
 }

@@ -14,12 +14,11 @@ specifiers:
   vite: ^2.9.7
   vite-plugin-pages: ^0.24.1
   vite-plugin-vue-inspector: github:mzaini30/vite-plugin-vue-inspector
-  vite-plugin-yaml2: ^0.2.4
+  vite-plugin-yaml2: ^1.0.0
   vite-ssg: ^0.20.1
   vue: ^3.2.25
   vue-lazyload: 3.0.0-rc.2
   vue-router: ^4.0.16
-  vue-router-prefetch: ^1.6.3
   vue-tsc: ^0.34.7
 
 dependencies:
@@ -39,11 +38,10 @@ devDependencies:
   vite: 2.9.12
   vite-plugin-pages: 0.24.1_vite@2.9.12
   vite-plugin-vue-inspector: github.com/mzaini30/vite-plugin-vue-inspector/b95fc767c2def7976e9f6be9e0217c1936e0f0e4_vite@2.9.12
-  vite-plugin-yaml2: 0.2.4
+  vite-plugin-yaml2: 1.0.0
   vite-ssg: 0.20.1_ah2svnd4q4evbmcsekycrwsdcm
   vue-lazyload: 3.0.0-rc.2
   vue-router: 4.0.16_vue@3.2.37
-  vue-router-prefetch: 1.6.3
   vue-tsc: 0.34.17_typescript@4.7.3
 
 packages:
@@ -2854,8 +2852,8 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-yaml2/0.2.4:
-    resolution: {integrity: sha512-JYthfcwiRgEjOADksS+pdnd3RNtVUxsgIHVI9vQPGXbirSrUov38JQE9DoDmUQ4ekI4Nqlz25m0hUvuloFsmIA==}
+  /vite-plugin-yaml2/1.0.0:
+    resolution: {integrity: sha512-wGTWtKHHiBRSV3BORfb4fhsMG1gKYaBB+6NzJFm+jVUZxqjdhI72DaApkrkjnquvVY48qLNHs4bpwwmzmE8rFA==}
     dev: true
 
   /vite-ssg/0.20.1_ah2svnd4q4evbmcsekycrwsdcm:
@@ -2918,10 +2916,6 @@ packages:
 
   /vue-lazyload/3.0.0-rc.2:
     resolution: {integrity: sha512-Cg7Gqb7jAoiImMPH3EMfAwJ8gZuFoBJCEtA7+TGRljrtktDtV7JAHIyKvuTgQR8DFAd7MhKi1Ys8QHdSrnGdZQ==}
-    dev: true
-
-  /vue-router-prefetch/1.6.3:
-    resolution: {integrity: sha512-DR+DJG6kPaaHU06Wxk37rU2WbCVejDLEssJtkBTF7Q+7TnU5wp3CZWJWHwpkcFbEcYIyWsQlSEE5Ti2N1509Lw==}
     dev: true
 
   /vue-router/4.0.16_vue@3.2.37:
