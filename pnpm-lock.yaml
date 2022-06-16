@@ -15,7 +15,7 @@ specifiers:
   vite: ^2.9.7
   vite-plugin-pages: ^0.24.1
   vite-plugin-vue-inspector: github:mzaini30/vite-plugin-vue-inspector
-  vite-plugin-yaml2: ^0.1.0
+  vite-plugin-yaml2: ^0.2.4
   vite-ssg: ^0.20.1
   vue: ^3.2.25
   vue-lazyload: 3.0.0-rc.2
@@ -41,7 +41,7 @@ devDependencies:
   vite: 2.9.12
   vite-plugin-pages: 0.24.1_vite@2.9.12
   vite-plugin-vue-inspector: github.com/mzaini30/vite-plugin-vue-inspector/b95fc767c2def7976e9f6be9e0217c1936e0f0e4_vite@2.9.12
-  vite-plugin-yaml2: 0.1.0
+  vite-plugin-yaml2: 0.2.4
   vite-ssg: 0.20.1_ah2svnd4q4evbmcsekycrwsdcm
   vue-lazyload: 3.0.0-rc.2
   vue-router: 4.0.16_vue@3.2.37
@@ -2862,8 +2862,8 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-yaml2/0.1.0:
-    resolution: {integrity: sha512-FLuYFQuC6fNEhgQaeiI0hnmeni6N0PEgk2gKIfhmUhuPXbW1qWodUM19fGJL1B+htJ1ZzH+sP1Utju+V9wMNww==}
+  /vite-plugin-yaml2/0.2.4:
+    resolution: {integrity: sha512-JYthfcwiRgEjOADksS+pdnd3RNtVUxsgIHVI9vQPGXbirSrUov38JQE9DoDmUQ4ekI4Nqlz25m0hUvuloFsmIA==}
     dev: true
 
   /vite-ssg/0.20.1_ah2svnd4q4evbmcsekycrwsdcm:

@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite-ssg build",
     "preview": "vite preview",
-    "prettier": "prettier --write 'src/**/*.{vue,ts,css}'",
+    "prettier": "prettier --write 'src/**/*.{vue,ts,css}' vite.config.ts index.html",
     "release": "bumpp --tag --commit --push"
   },
   "simple-git-hooks": {
@@ -30,7 +30,7 @@
     "vite": "^2.9.7",
     "vite-plugin-pages": "^0.24.1",
     "vite-plugin-vue-inspector": "github:mzaini30/vite-plugin-vue-inspector",
-    "vite-plugin-yaml2": "^0.1.0",
+    "vite-plugin-yaml2": "^0.2.4",
     "vite-ssg": "^0.20.1",
     "vue-lazyload": "3.0.0-rc.2",
     "vue-router": "^4.0.16",
