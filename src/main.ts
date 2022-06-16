@@ -6,7 +6,7 @@ import "uno.css";
 import VueLazyload from "vue-lazyload";
 import { createRouter, createWebHistory } from "vue-router";
 import { createHead } from "@vueuse/head";
-import {ViteSSG} from 'vite-ssg'
+import { ViteSSG } from "vite-ssg";
 
 export const createApp = ViteSSG(
   // the root component
@@ -16,9 +16,9 @@ export const createApp = ViteSSG(
   // function to have custom setups
   ({ app, router, routes, isClient, initialState }) => {
     // install plugins etc.
-    app.use(VueLazyload)
-  },
-)
+    app.use(VueLazyload);
+  }
+);
 
 // const router = createRouter({
 //   routes,
