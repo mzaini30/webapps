@@ -8,7 +8,6 @@ specifiers:
   bumpp: ^7.2.0
   critters: ^0.0.16
   prettier: ^2.7.0
-  simple-git-hooks: ^2.8.0
   typescript: ^4.5.4
   unocss: ^0.39.0
   unplugin-vue-components: ^0.19.6
@@ -34,7 +33,6 @@ devDependencies:
   bumpp: 7.2.0
   critters: 0.0.16
   prettier: 2.7.0
-  simple-git-hooks: 2.8.0
   typescript: 4.7.3
   unocss: 0.39.0_vite@2.9.12
   unplugin-vue-components: 0.19.6_vite@2.9.12+vue@3.2.37
@@ -2544,12 +2542,6 @@ packages:
 
   /signal-exit/3.0.7:
     resolution: {integrity: sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==}
-    dev: true
-
-  /simple-git-hooks/2.8.0:
-    resolution: {integrity: sha512-ocmZQORwa6x9mxg+gVIAp5o4wXiWOHGXyrDBA0+UxGKIEKOyFtL4LWNKkP/2ornQPdlnlDGDteVeYP5FjhIoWA==}
-    hasBin: true
-    requiresBuild: true
     dev: true
 
   /sirv/2.0.2:
