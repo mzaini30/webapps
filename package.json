@@ -4,7 +4,7 @@
   "version": "1.0.1",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc --noEmit && vite-ssg build",
+    "build": "vue-tsc --noEmit && vite build && vite build --ssr && vite-plugin-ssr prerender",
     "preview": "vite preview",
     "prettier": "prettier --write 'src/**/*.{vue,ts,css}' vite.config.ts index.html",
     "release": "bumpp --tag --commit --push"
@@ -19,6 +19,7 @@
     "@unocss/reset": "^0.39.0",
     "@unocss/transformer-directives": "^0.39.0",
     "@vitejs/plugin-vue": "^2.3.1",
+    "@vueuse/core": "^8.6.0",
     "@vueuse/head": "^0.7.6",
     "bumpp": "^7.2.0",
     "critters": "^0.0.16",
@@ -28,11 +29,12 @@
     "unplugin-vue-components": "^0.19.6",
     "vite": "^2.9.7",
     "vite-plugin-pages": "^0.24.1",
+    "vite-plugin-ssr": "^0.3.64",
     "vite-plugin-vue-inspector": "github:mzaini30/vite-plugin-vue-inspector",
     "vite-plugin-yaml2": "^1.0.0",
-    "vite-ssg": "^0.20.1",
     "vue-lazyload": "3.0.0-rc.2",
     "vue-router": "^4.0.16",
+    "vue-router-prefetch": "2",
     "vue-tsc": "^0.34.7"
   }
 }
